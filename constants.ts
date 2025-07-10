@@ -45,6 +45,7 @@ export const FEET_CARDS_PRO: PillarCardProps[] = [
 ];
 
 export const BLOG_POSTS: PillarCardProps[] = [
+    { slug: '/blog/science-behind-earthing', title: "The Science of Earthing: What's Really Going On?", description: "Does standing barefoot on the ground actually do anything? A look at the science behind 'earthing' and my own two cents.", emoji: '🔬' },
     { slug: '/blog/connecting-with-nature', title: 'The Easiest Way to Reconnect With Nature', description: "It's simpler than you think. Let's talk about finding our roots again.", emoji: '🌱' },
     { slug: '/blog/alaska-grounding', title: 'Grounding in The Last Frontier: My Alaskan Adventure', description: "Barefoot in Alaska? You bet. Here's what I learned about true wild connection.", emoji: '🐻' },
     { slug: '/blog/beyond-the-backdoor', title: 'Beyond the Backdoor: Simple Ways to Rediscover Your Wild Self', description: "You don't need a grand expedition. The wilderness in you is waiting right outside.", emoji: '🚪' },

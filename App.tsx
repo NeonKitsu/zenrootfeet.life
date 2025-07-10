@@ -61,6 +61,7 @@ import YourHolisticToolkitPage from './pages/blog/YourHolisticToolkitPage';
 import ZenOfBeingPage from './pages/blog/ZenOfBeingPage';
 import MindfulMorningsPage from './pages/blog/MindfulMorningsPage';
 import EnergyOfSilencePage from './pages/blog/EnergyOfSilencePage';
+import ScienceBehindEarthingPage from './pages/blog/ScienceBehindEarthingPage';
 
 
 const App: React.FC = () => {
@@ -103,6 +104,7 @@ const App: React.FC = () => {
         <Route path="/blog/connecting-with-nature" element={<ConnectingWithNaturePage />} />
         <Route path="/blog/alaska-grounding" element={<AlaskaGroundingPage />} />
         {/* New Posts */}
+        <Route path="/blog/science-behind-earthing" element={<ScienceBehindEarthingPage />} />
         <Route path="/blog/beyond-the-backdoor" element={<BeyondTheBackdoorPage />} />
         <Route path="/blog/unplugged-path" element={<TheUnpluggedPathPage />} />
         <Route path="/blog/natures-whisper" element={<NaturesWhisperPage />} />
